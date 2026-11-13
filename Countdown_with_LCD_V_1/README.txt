@@ -1,0 +1,43 @@
+// Components
+x1 Arduino Board (ELEGOO UNO R3)
+x1 LCD Screen
+x1 Buzzer
+x1 Potenciometer
+x3 220 ohm resistor
+x1 Green LED
+x1 Red LED
+x20 Jumper Wires
+
+// Circuit
+
+// LCD //
+VSS: GND
+VDD: 5V
+V0 : PIN2 POTENCIOMETER
+RS : PIN 12
+RW : GND
+E  : 10
+D4 : PIN 5
+D5 : PIN 4
+D6 : PIN 3
+D7 : PIN 2
+A  : 5V
+K  : GND
+
+// POTENCIOMETER
+RIGHT         : 5V
+MIDDLE (PIN2) : V0
+LEFT          : 220 OHM RESISTOR to GND
+
+// LEDS
+/ RED:
+NEGATIVE  : GND
+POSISITVE : 220 OHM RESISTOR to PIN 8
+
+/ GREEN:
+NEGATIVE  : GND
+POSITIVE  : 220 OHM RESISTOR to PIN 13
+
+// BUZZER
+POSITIVE  : PIN 13
+NEGATIVE  : GND
